@@ -1,0 +1,39 @@
+{
+  "name": "wdii-portfolio-starter",
+  "version": "1.0.0",
+  "description": "These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass  --no-source-map --watch src/sass:public/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:sass": "sass  --no-source-map src/sass:public/css",
+    "build:eleventy": "eleventy",
+    "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:sass build:eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvccidmx/wdii-portfolio-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvccidmx/wdii-portfolio-starter/issues"
+  },
+  "homepage": "https://github.com/rvccidmx/wdii-portfolio-starter#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "autoprefixer": "^10.4.17",
+    "cross-env": "^7.0.3",
+    "cssnano": "^6.0.5",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "luxon": "^3.4.4"
+  }
+}

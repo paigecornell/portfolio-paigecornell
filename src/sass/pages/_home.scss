@@ -1,0 +1,54 @@
+/* home */
+@use "../abstracts/variables" as var;
+@use "../base/typography" as type;
+
+html {
+  background-image: url(https://images.unsplash.com/photo-1518889735218-3e3a03fd3128?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+body {
+  font-family: type.$font;
+  width: min(100% - 2rem, 60ch);
+  margin-inline: auto;
+  margin-block: 4rem;
+
+  // Set default font color
+  color: var(--gray-0);
+
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.poem__page {
+  text-align: center;
+}
+
+.poem__stanzas p {
+  font-size: var(--font-size-fluid-2);
+}
+
+.poem__information {
+  font-family: var(--font-serif);
+  text-align: center;
+  padding-block: 1rem;
+}
+
+// Fix Open Props light mode selectors
+// to match dark mode
+
+hr {
+  background-color: var(--gray-0);
+}
+
+a[href] {
+  color: var(--indigo-2);
+}
+
+:where(a):where([href]):where(:visited) {
+  text-decoration-color: var(--indigo-2);
+}
