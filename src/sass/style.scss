@@ -11,7 +11,7 @@
 body {
   font-family: var(--ff-body);
   font-size: var(--fs-400);
-  color: var(--clr-neutral-900);
+  color: var(--hsl-#E2BFD9);
 }
 
 h1,
@@ -172,6 +172,8 @@ header,
   --flow-spacer: 3rem;
   margin: 6rem 0;
 }
+
+
 
 /* //////////////////////
   Individual article page
