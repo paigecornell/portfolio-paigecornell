@@ -173,8 +173,6 @@ header,
   margin: 6rem 0;
 }
 
-
-
 /* //////////////////////
   Individual article page
   /////////////////////// */
@@ -182,8 +180,11 @@ header,
 .main-article {
   margin-bottom: 3rem;
   text-align: justify;
-  }
 
+  .article-title {
+  text-align: center;
+  }
+}
 
 .main-article__figure figcaption {
   margin: 1rem 0;

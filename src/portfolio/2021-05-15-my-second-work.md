@@ -1,9 +1,9 @@
 ---
 title: Applying Color in UI Design
 author: Paige Cornell 
-date: 2024-20-10
+date: 2024-10-20
 tags: ["post", "featured"]
-image: /images/color-card.png 
+image: /images/color-card.png  
 imageAlt: Emoji business product card.
 description:  In this project, we were tasked to create a fictional product based on an emoji.
 ---
