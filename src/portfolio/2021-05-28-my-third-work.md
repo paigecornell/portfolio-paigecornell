@@ -1,10 +1,10 @@
 ---
-title: My Third Work
-author: IdMX Student
-date: 2021-05-28
+title: Poem Card
+author: Paige Cornell 
+date: 2024-10-20
 tags: ['post']
-image: /assets/portfolio/article-3.jpg
-imageAlt: This is a test
+image: /images/poem-props.png
+imageAlt: "Poem website featuring Robert Frost poem."
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
 
