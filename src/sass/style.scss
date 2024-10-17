@@ -16,13 +16,13 @@ body {
 
 .dongle-regular {
 font-family: "Dongle", sans-serif;
-font-weight: 400;
+font-weight: 500;
 font-style: normal;
 }
 
 .arvo-regular {
 font-family: "Arvo", serif;
-font-weight: 400;
+font-weight: 500;
 font-style: normal;
 }
 
@@ -288,7 +288,7 @@ header,
 }
 
 .btn--primary {
-  background: var(--clr-primary-400);
+  background: var(--clr-primary-100);
   color: var(--clr-neutral-100);
   font-weight: var(--fw-700);
   border: 2px solid var(--clr-primary-400);
